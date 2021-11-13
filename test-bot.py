@@ -3,7 +3,7 @@ from discord.ext import commands
 import youtube_dl
 import os
 
-client = commands.Bot(command_prefix="?")
+client = commands.Bot(command_prefix="!")
 
 @client.command()
 async def play(ctx, url : str):
